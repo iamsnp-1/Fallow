@@ -151,19 +151,3 @@ Returns supported agro-climatic demo districts.
 
 ---
 
-## 🏆 Hackathon Demo Script (3-Minute Rehearsal)
-
-1. **The Hook (Climate Anomaly Beat)**:
-   - Select **Aurangabad (Maharashtra)** in Kharif season.
-   - Note the **-35% rainfall deficit alert** on the interactive chart. Highlight that conventional generative AI blindly recommends cotton or sugarcane without looking at local climate reality.
-2. **The Reveal (Live Multi-Agent Trace)**:
-   - Click **Run Advisory Pipeline**.
-   - Observe live SSE trace: Forecast Agent hands off to Research Agent (queries ICAR bulletins), hands off to Advisory Agent (Granite 3-8B), hands off to Localization Agent.
-3. **The Proof (100% Provenance & Citations)**:
-   - Show **#1 Bajra** (350mm) and **#2 Tur**.
-   - Click the citation badge `[P-aur00001]`. The Citation Provenance modal pops up showing the exact 2022 ICAR dryland handbook excerpt and link.
-4. **The Contrast (Regional Divergence)**:
-   - Switch to **Thanjavur (Cauvery Delta)**.
-   - Language auto-switches to Tamil, forecast shows near-normal delta rainfall, recommendations diverge to **Rice (Paddy)** and **Blackgram**.
-5. **The Ethics (Refusal Path)**:
-   - Explain how Fallow withholds advice (`sufficient_guidance=False`) if RAG coverage is thin, completely eliminating catastrophic agricultural hallucinations.
